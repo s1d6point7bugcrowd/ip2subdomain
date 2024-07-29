@@ -17,7 +17,7 @@ This script generates a list of IP addresses within a specified range, saves the
    go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 
-Sure! Here's a README in markdown format for your script:
+
 
 markdown
 
