@@ -10,12 +10,12 @@ This script generates a list of IP addresses within a specified range, saves the
 
 1. Install Python 3.x from the [official website](https://www.python.org/).
 2. Install `hakrevdns`:
-   ```sh
+  
    go install github.com/hakluke/hakrevdns@latest
 
     Install httpx:
 
-    sh
+
 
     go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
