@@ -13,31 +13,6 @@ This script generates a list of IP addresses within a specified range, saves the
    ```sh
    go install github.com/hakluke/hakrevdns@latest
 
-
-   go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-
-
-
-
-markdown
-
-# IP Range to HTTP Probe Script
-
-This script generates a list of IP addresses within a specified range, saves them to a temporary file, and then runs `hakrevdns` and `httpx` tools on these IPs to perform reverse DNS lookups and HTTP probing.
-
-## Requirements
-
-- Python 3.x
-- `hakrevdns` tool
-- `httpx` tool
-
-## Installation
-
-1. Install Python 3.x from the [official website](https://www.python.org/).
-2. Install `hakrevdns`:
-   ```sh
-   go install github.com/hakluke/hakrevdns@latest
-
     Install httpx:
 
     sh
